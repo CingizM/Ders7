@@ -25,6 +25,7 @@ color: #777;
 header {
 background-color: aliceblue;
     margin: 0px;
+    display: flex;
 }
 #cat {
   float: left;
