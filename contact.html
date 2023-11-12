@@ -3,12 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Control</title>
+  <title>Contact | Your Name</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/esas.css">
 </head>
 
 <body>
+
   <header id="basliq">
     <div class="konteyner">
       <a href="About.html" id="ad">Control</a>
@@ -24,11 +25,23 @@
     <section class="main-text">
       <h1>About</h1>
 
-      <img src="assets/images/control.jpg" class="image" alt="Chingiz">
-
-      <p>Control is a third-person shooter video game created by Remedy Entertainment, developer of critically acclaimed action-adventure video games including Max Payne, Alan Wake, and Quantum Break.</p>
-
-      <p>A mind-bending supernatural adventure filled with fast-paced superpowered action, Control is the story of Jesse Faden, who finds herself caught in the midst of a deadly conflict between a secret government agency and otherworldly forces invading and corrupting ordinary reality.</p>
+      <form id="form">
+        <ul>
+          <li>
+            <label for="name">Name Surname</label>
+            <input type="text" id="name" name="name" placeholder="Chingiz Murtuzov" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="must@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="yourself">About yourself</label>
+            <textarea id="yourself" name="yourself" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
     </section>
 
