@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+    background: url("../images/concrete_seamless.png");
+  }
+  
+  .konteyner {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  h1 {
+    padding-bottom: 20px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+  }
+  h1, h2 {
+  font-size: 30px;
+}
+h1, h2, p {
+  margin-bottom: 20px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;}
+p {
+    color: #777;
+}
+#ad {
+    float: left;
+    width: 250px;
+    background: #4aaaa5;
+    color: #fff;
+    height: 9%;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 40px;
+    line-height: 90px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+#basliq {
+position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+nav {
+    float: right;
+    margin-top: 25px;
+  }
+  .linkler {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border
+  }
+
+  .sidebar {
+    float: right;
+    width: 100%;
+    max-width: 170px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+  }
+
+
+.sidebar h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+  text-align: center;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+
+  #esas-konteyner {
+    padding-top: 130px;
+  }
+  
+  .main-text {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  .image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+  footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+  }
+
