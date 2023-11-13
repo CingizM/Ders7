@@ -1,0 +1,38 @@
+.beuro {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .beuro:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .beuro img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .beuro h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 89%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    font-size: 22px;
+  }
+  
